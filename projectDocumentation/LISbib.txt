@@ -1,0 +1,16 @@
+@article{DBLP:journals/corr/abs-1709-01015,
+  author    = {Faheem Zafari and
+               Athanasios Gkelias and
+               Kin K. Leung},
+  title     = {A Survey of Indoor Localization Systems and Technologies},
+  journal   = {CoRR},
+  volume    = {abs/1709.01015},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1709.01015},
+  archivePrefix = {arXiv},
+  eprint    = {1709.01015},
+  timestamp = {Thu, 05 Oct 2017 09:42:49 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1709-01015},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
