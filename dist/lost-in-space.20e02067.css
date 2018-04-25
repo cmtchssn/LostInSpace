@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'glegooregular';
+    src: url('glegoo-regular-webfont.b0b5ca5f.woff2') format('woff2'),
+         url('glegoo-regular-webfont.40c005b2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'hk_grotesklight';
+    src: url('hkgrotesk-light-webfont.2d191513.woff2') format('woff2'),
+         url('hkgrotesk-light-webfont.112f3172.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'znikomitregular';
+    src: url('znikomit-webfont.4dc60366.woff2') format('woff2'),
+         url('znikomit-webfont.884ec8e6.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'manualeregular';
+    src: url('manuale-regular-webfont.1ab77804.woff2') format('woff2'),
+         url('manuale-regular-webfont.d3ab3705.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    color: #E6E6E6;
+    background-color: #16161D;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "hk_grotesklight", sans-serif;
+    font-weight: normal;
+}
+
+p {
+    font-family: "hk_grotesklight", sans-serif;
+}

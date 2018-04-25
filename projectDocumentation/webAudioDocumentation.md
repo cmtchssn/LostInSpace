@@ -9,3 +9,23 @@ A simple, typical workflow for web audio would look something like this:
 5. Connect the sources up to the effects, and the effects to the destination.  
 ## Problems
 Obviously, smartphones with only one speaker cannot pan audio left to right. Headphones are the first thought at fixing this, but it defeats the purpose of using the collective users as performers and spatializing the piece.
+  
+    
+## Tate's server stuff
+# Node.js
+`npm init`
+`npm i tone --save`  
+you already know this
+## Bundling
+# Parcel
+import and export to skip global schemes in place of modular schemes. Install globablly  
+Others include:  
+- rollup
+- webpack  
+## Deployment
+# Static
+- netlify.com - hosts websites for free, similar to Github Pages
+- now.sh
+# Serverside 
+- now.sh
+- hyper.sh - cloud based pricing
