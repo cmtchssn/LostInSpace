@@ -1,6 +1,8 @@
 //const trilateration = require('trilateration'); //figure out require js for this to work
 var myVar = null;
 
+Tone.Listener._position = [0, 0, 0];
+
 var beacon1 = {
     "id" : "35467",
     "positionX" : -10,
@@ -77,8 +79,8 @@ var panner00 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
     "positionY" : 0, 
     "positionZ" : 0,
     "panningModel" : "HRTF",
-    "maxDistance" : 1,
-    "refDistance" : 0.1
+    "maxDistance" : 3,
+    "refDistance" : 1
 }).toMaster(); 
 
 var panner01 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
@@ -86,8 +88,8 @@ var panner01 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
     "positionY" : 0, 
     "positionZ" : 0,
     "panningModel" : "HRTF",
-    "maxDistance" : 1,
-    "refDistance" : 0.1
+    "maxDistance" : 3,
+    "refDistance" : 1
 }).toMaster();  
 
 var panner02 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
@@ -95,8 +97,8 @@ var panner02 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
     "positionY" : 0, 
     "positionZ" : 10,
     "panningModel" : "HRTF",
-    "maxDistance" : 1,
-    "refDistance" : 0.1
+    "maxDistance" : 3,
+    "refDistance" : 1
 }).toMaster();  
 
 var panner03 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
@@ -104,8 +106,8 @@ var panner03 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
     "positionY" : 0, 
     "positionZ" : 10,
     "panningModel" : "HRTF",
-    "maxDistance" : 1,
-    "refDistance" : 0.1
+    "maxDistance" : 3,
+    "refDistance" : 1
 }).toMaster();  
 
 var panner04 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
@@ -113,8 +115,8 @@ var panner04 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
     "positionY" : 0, 
     "positionZ" : 20,
     "panningModel" : "HRTF",
-    "maxDistance" : 1,
-    "refDistance" : 0.1
+    "maxDistance" : 3,
+    "refDistance" : 1
 }).toMaster();  
 
 var panner05 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
@@ -122,8 +124,8 @@ var panner05 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
     "positionY" : 0, 
     "positionZ" : 20,
     "panningModel" : "HRTF",
-    "maxDistance" : 1,
-    "refDistance" : 0.1
+    "maxDistance" : 3,
+    "refDistance" : 1
 }).toMaster();  
 
 var panner06 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
@@ -131,8 +133,8 @@ var panner06 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
     "positionY" : 0, 
     "positionZ" : 30,
     "panningModel" : "HRTF",
-    "maxDistance" : 1,
-    "refDistance" : 0.1
+    "maxDistance" : 3,
+    "refDistance" : 1
 }).toMaster();  
 
 var panner07 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
@@ -140,8 +142,8 @@ var panner07 = new Tone.Panner3D({  // Right Hand Cartesian coordinates
     "positionY" : 0, 
     "positionZ" : 30,
     "panningModel" : "HRTF",
-    "maxDistance" : 1,
-    "refDistance" : 0.1
+    "maxDistance" : 3,
+    "refDistance" : 1
 }).toMaster(); 
 
 player00.connect(panner00);
@@ -153,7 +155,7 @@ player05.connect(panner05);
 player06.connect(panner06);
 player07.connect(panner07);
 
-/*
+
 getFromAndroid();
 
 function getFromAndroid() {
@@ -161,4 +163,3 @@ function getFromAndroid() {
     alert(myVar);
     return myVar;
 }
-*/

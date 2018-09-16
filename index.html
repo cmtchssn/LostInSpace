@@ -31,6 +31,19 @@
     Do you hear it?<br/>
     Listen closely.</p>
     
+    <button onClick="getBeacon()">Get it!</button>
+    <div id="display">youtube.com/me</div>
+    <div id="display2">pfpfpf</div>
 </body>
-
+    <script>
+    function getBeacon(){
+        var beaconDist = Android.getFromAndroid();
+        var el = document.querySelector("#display");
+        el.innerHTML = beaconDist;
+    }
+    function setDisplay(text){
+        var el = document.querySelector("#display2");
+        el.innerHTML = "jjjf: " + text;
+    }
+    </script>
 </html>

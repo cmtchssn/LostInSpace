@@ -1,0 +1,5 @@
+- `python -m http.server` in PowerShell or `python3 -m http.server` in bash inside LostInSpace-master folder  
+- change IP address in Android Studio  
+- connect Android device to Wifi, Bluetooth, and laptop (via USB)  
+- turn on Bluetooth beacons  
+- run app in Android Studio  
