@@ -31,19 +31,24 @@
     Do you hear it?<br/>
     Listen closely.</p>
     
-    <button onClick="getBeacon()">Get it!</button>
-    <div id="display">youtube.com/me</div>
-    <div id="display2">pfpfpf</div>
+    <!--<button onClick="getBeacon()">Get it!</button>-->
+    <!--<div id="display">beacon name i hope</div>-->
+    <div id="display2">visible div2</div>
 </body>
     <script>
+    var fullBeacon;
+    /*
     function getBeacon(){
         var beaconDist = Android.getFromAndroid();
         var el = document.querySelector("#display");
         el.innerHTML = beaconDist;
-    }
+    }*/
     function setDisplay(text){
+        var fullString = text;
         var el = document.querySelector("#display2");
-        el.innerHTML = "jjjf: " + text;
+        el.innerHTML = "Beacon ID & Distance: " + fullString;
+        fullBeacon = fullString.split(" ");
+        return fullBeacon;
     }
     </script>
 </html>

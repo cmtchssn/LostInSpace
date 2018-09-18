@@ -1,7 +1,13 @@
 //const trilateration = require('trilateration'); //figure out require js for this to work
 var myVar = null;
 
+//alert(fullBeacon[0] + " " + fullBeacon[1]);
+
 Tone.Listener._position = [0, 0, 0];
+
+//if (beaconId[1] == "35469"){
+//    alert("Dude!");
+//}
 
 var beacon1 = {
     "id" : "35467",
